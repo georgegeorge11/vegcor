@@ -1,0 +1,22 @@
+@use '@angular/material' as mat;
+
+mat-toolbar {
+  justify-content: space-between;
+  height: 60px;
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.theme-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+span {
+  cursor: pointer;
+}
+
+span:hover{
+  transform: scale(1.01);
+}
+
